@@ -1,0 +1,10 @@
+I want to extend my dataset of Virtual Assistant queries for particular intents. I have given an intent and some sample queries for that intent. Give me 100 additional queries that are phrased exactly like the sample queries. Do not deviate from the phrasing used in the samples.
+
+intent: "who_do_you_work_for"
+sample queries:
+1. do you know who you report to
+2. what is your boss's name
+3. are you influenced by someone else
+4. is there another company you work for
+5. would you say you are working for me
+6. when asked who you work for, what would you say
