@@ -19,28 +19,20 @@ This project aims to classify user intents based on given text input. It include
 ## <a name="Project Structure">**1. Project Structure**</a>
 ```
 csi5180-intent-classification
+│
 ├───data
 │   ├───augmented_dataset
-│	│
 │   ├───generated_queries
-│	│
 │   └───original_dataset
 │
 ├───models
 │   ├───baseline_bert_augmented_data
-│	│
 │   ├───baseline_bert_original_data
-│	│
 │   ├───bert_inscope_original_data
-│	│
 │   ├───clustering_augmented_data
-│	│
 │   ├───clustering_original_data
-│	│
 │   ├───combined_approach
-│	│
 │   ├───roberta_augmented_data
-│	│
 │   └───roberta_original_data
 │
 ├───original_repository_files
