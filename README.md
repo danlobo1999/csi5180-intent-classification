@@ -39,7 +39,7 @@ csi5180-intent-classification
 │
 └───project_documents
 ```
-### TODO: 
+> TODO: 
 - data: Contains original and augmented datasets, as well as generated queries.
 - models: Includes various models and approaches used for intent classification.
 - original_repository_files: Original files from the repository, if any.
@@ -47,13 +47,13 @@ csi5180-intent-classification
 
 
 ## <a name="Installation">**2. Installation**</a>
-### TODO: Provide detailed instructions on how to install the project and its dependencies, including any required packages or libraries.
+> TODO: Provide detailed instructions on how to install the project and its dependencies, including any required packages or libraries.
 
 ## <a name="Usage">**3. Usage**</a>
-### TODO: Explain how to run the project, provide sample input/output, and describe any required command line arguments or configuration settings.
+> TODO: Explain how to run the project, provide sample input/output, and describe any required command line arguments or configuration settings.
 
 ## <a name="Models and Approaches">**4. Models and Approaches**</a>
-### TODO: Describe each model and approach implemented in this project:
+> TODO: Describe each model and approach implemented in this project:
 
 1. Baseline BERT (Original Data)
 2. Baseline BERT (Augmented Data)
@@ -65,14 +65,14 @@ csi5180-intent-classification
 8. RoBERTa (Augmented Data)
 
 ## <a name="Datasets">**5. Datasets**</a>
-### TODO: Provide information about the datasets used in this project:
+> TODO: Provide information about the datasets used in this project:
 
 1. Original Dataset: Briefly describe the original dataset and its source.
 2. Augmented Dataset: Explain the augmentation process and its purpose.
 3. Generated Queries: Describe the purpose of generated queries and how they were created.
 
 ## <a name="Evaluation">**6. Evaluation**</a>
-### TODO: Explain the evaluation methodology used for comparing the performance of different models and approaches.
+> TODO: Explain the evaluation methodology used for comparing the performance of different models and approaches.
 
 ## <a name="References">**7. References**</a>
-### TODO: Provide credits for any external resources, repositories, or research papers used in this project.
+> TODO: Provide credits for any external resources, repositories, or research papers used in this project.
