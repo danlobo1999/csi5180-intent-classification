@@ -1,7 +1,7 @@
 # **CSI 5180 Topics in AI: Virtual Assistants**
 
 ## **Course Project - Intent Classification**
-This project aims to classify user intents based on given text input. It includes various models and approaches to achieve accurate intent classification.
+This project aims to classify user intents based on given text input. It includes various models and approaches to achieve accurate intent classification. We extend the paper [An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction](https://aclanthology.org/D19-1131/) and use their dataset [CLINC150](https://github.com/clinc/oos-eval).
 
 ## **Project Members**
 - [Daniel Lobo](https://github.com/danlobo1999)
@@ -41,7 +41,7 @@ csi5180-intent-classification
 ```
 - data: Contains original (CLINC150) and augmented datasets, as well as the ChatGPT generated queries.
 - models: Includes various models and approaches used for intent classification.
-- original_repository_files: Original files from the [original repository](https://github.com/clinc/oos-eval).
+- original_repository_files: Original files from the [reference repository](https://github.com/clinc/oos-eval).
 - project_documents: Relevant documents related to the project.
 
 
@@ -70,9 +70,9 @@ Below are all the models implemented in this project:
 3. Generated Queries: All the queries that were generated using ChatGPT including validation and re-generation.
 
 ## <a name="Evaluation">**6. Evaluation**</a>
-We use the same metrics (in-scope accuracy and out-of-scope recall) used in the [original paper](https://www.aclweb.org/anthology/D19-1131/)
+We use the same metrics (in-scope accuracy and out-of-scope recall) used in the [reference paper](https://www.aclweb.org/anthology/D19-1131/)
 Our project improves upon the out-of-scope recall by implementing Clustering for binary in-scope/out-of-scope classification before classifying the intent.
 
 ## <a name="References">**7. References**</a>
-Original Paper : [An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction](https://aclanthology.org/D19-1131/)
-[Original repository](https://github.com/clinc/oos-eval)
+1. Reference Paper : [An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction](https://aclanthology.org/D19-1131/)
+2. [Reference repository](https://github.com/clinc/oos-eval)
