@@ -1,0 +1,11 @@
+pandas
+numpy
+evaluate
+transformers
+datasets
+scikit-learn
+matplotlib
+seaborn
+tqdm
+sentence-transformers
+torch
