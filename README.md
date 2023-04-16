@@ -39,40 +39,40 @@ csi5180-intent-classification
 │
 └───project_documents
 ```
-> TODO: 
-- data: Contains original and augmented datasets, as well as generated queries.
+- data: Contains original (CLINC150) and augmented datasets, as well as the ChatGPT generated queries.
 - models: Includes various models and approaches used for intent classification.
-- original_repository_files: Original files from the repository, if any.
-- project_documents: Relevant documents related to the project (e.g., research papers, reports).
+- original_repository_files: Original files from the [original repository](https://github.com/clinc/oos-eval).
+- project_documents: Relevant documents related to the project.
 
 
 ## <a name="Installation">**2. Installation**</a>
-> TODO: Provide detailed instructions on how to install the project and its dependencies, including any required packages or libraries.
+All the code for this project is in Jupyter Notebooks. If they are run on Colab, no installation is required. The requirements.txt file contains all the requirements for running the notebooks in a local environment.
 
 ## <a name="Usage">**3. Usage**</a>
 > TODO: Explain how to run the project, provide sample input/output, and describe any required command line arguments or configuration settings.
 
 ## <a name="Models and Approaches">**4. Models and Approaches**</a>
-> TODO: Describe each model and approach implemented in this project:
+Below are all the models implemented in this project:
 
 1. Baseline BERT (Original Data)
 2. Baseline BERT (Augmented Data)
 3. BERT In-Scope (Original Data)
 4. Clustering (Original Data)
 5. Clustering (Augmented Data)
-6. Combined Approach
+6. Combined Approach (Clustering and BERT)
 7. RoBERTa (Original Data)
 8. RoBERTa (Augmented Data)
 
 ## <a name="Datasets">**5. Datasets**</a>
-> TODO: Provide information about the datasets used in this project:
 
-1. Original Dataset: Briefly describe the original dataset and its source.
-2. Augmented Dataset: Explain the augmentation process and its purpose.
-3. Generated Queries: Describe the purpose of generated queries and how they were created.
+1. Original Dataset: CLINC150 dataset which contains 150 intents (with 150 queries each) and out-of-scope queries.
+2. Augmented Dataset: An extension to the train set of CLINC150 with 100 additional ChatGPT generated queries for each of the 150 intents.
+3. Generated Queries: All the queries that were generated using ChatGPT including validation and re-generation.
 
 ## <a name="Evaluation">**6. Evaluation**</a>
-> TODO: Explain the evaluation methodology used for comparing the performance of different models and approaches.
+We use the same metrics (in-scope accuracy and out-of-scope recall) used in the [original paper](https://www.aclweb.org/anthology/D19-1131/)
+Our project improves upon the out-of-scope recall by implementing Clustering for binary in-scope/out-of-scope classification before classifying the intent.
 
 ## <a name="References">**7. References**</a>
-> TODO: Provide credits for any external resources, repositories, or research papers used in this project.
+Original Paper : [An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction](https://aclanthology.org/D19-1131/)
+[Original repository](https://github.com/clinc/oos-eval)
